@@ -466,20 +466,7 @@
                         "description":"The body",
                         "required":true,
                         "schema":{
-                            "anyOf":[
-                                {
-                                    "type":"object",
-                                    "additionalProperties":{
-                                        "type":"string"
-                                    }
-                                },
-                                {
-                                    "type":"object",
-                                    "additionalProperties":{
-                                        "$ref":"#/definitions/Object"
-                                    }
-                                }
-                            ]
+                            "$ref":"#/definitions/Object"
                         }
                     }
                 ],
@@ -2175,20 +2162,7 @@
                         "description":"The body",
                         "required":true,
                         "schema":{
-                            "anyOf":[
-                                {
-                                    "type":"object",
-                                    "additionalProperties":{
-                                        "type":"string"
-                                    }
-                                },
-                                {
-                                    "type":"object",
-                                    "additionalProperties":{
-                                        "$ref":"#/definitions/Object"
-                                    }
-                                }
-                            ]
+                            "$ref":"#/definitions/Object"
                         }
                     }
                 ],
