@@ -35,7 +35,7 @@
                     "200":{
                         "description":"OK",
                         "schema":{
-                            "$ref":"#/definitions/ODataResponse[List[Dataset]]"
+                            "$ref":"#/definitions/ODataResponse.List.Dataset"
                         }
                     }
                 },
@@ -194,7 +194,7 @@
                     "200":{
                         "description":"OK",
                         "schema":{
-                            "$ref":"#/definitions/ODataResponse[List[Table]]"
+                            "$ref":"#/definitions/ODataResponse.List.Table"
                         }
                     }
                 },
@@ -338,7 +338,7 @@
                     "200":{
                         "description":"OK",
                         "schema":{
-                            "$ref":"#/definitions/ODataResponse[List[Refresh]]"
+                            "$ref":"#/definitions/ODataResponse.List.Refresh"
                         }
                     }
                 },
@@ -400,7 +400,7 @@
                     "200":{
                         "description":"OK",
                         "schema":{
-                            "$ref":"#/definitions/ODataResponse[List[GatewayDatasource]]"
+                            "$ref":"#/definitions/ODataResponse.List.GatewayDatasource"
                         }
                     }
                 },
@@ -432,7 +432,7 @@
                     "200":{
                         "description":"OK",
                         "schema":{
-                            "$ref":"#/definitions/ODataResponse[List[Datasource]]"
+                            "$ref":"#/definitions/ODataResponse.List.Datasource"
                         }
                     }
                 },
@@ -552,7 +552,7 @@
                     "200":{
                         "description":"OK",
                         "schema":{
-                            "$ref":"#/definitions/ODataResponse[List[Gateway]]"
+                            "$ref":"#/definitions/ODataResponse.List.Gateway"
                         }
                     }
                 },
@@ -614,7 +614,7 @@
                     "200": {
                         "description": "OK",
                         "schema": {
-                            "$ref": "#/definitions/ODataResponse[List[GatewayDatasource]]"
+                            "$ref": "#/definitions/ODataResponse.List.GatewayDatasource"
                         }
                     }
                 },
@@ -838,7 +838,7 @@
                     "200": {
                         "description": "OK",
                         "schema": {
-                            "$ref":"#/definitions/ODataResponse[List[UserAccessRight]]"
+                            "$ref":"#/definitions/ODataResponse.List.UserAccessRight"
                         }
                     }
                 }
@@ -956,7 +956,7 @@
                     "200":{
                         "description":"OK",
                         "schema":{
-                            "$ref":"#/definitions/ODataResponse[List[Import]]"
+                            "$ref":"#/definitions/ODataResponse.List.Import"
                         }
                     }
                 },
@@ -1061,7 +1061,7 @@
                     "200":{
                         "description":"OK",
                         "schema":{
-                            "$ref":"#/definitions/ODataResponse[List[Report]]"
+                            "$ref":"#/definitions/ODataResponse.List.Report"
                         }
                     }
                 },
@@ -1088,7 +1088,7 @@
                     "200":{
                         "description":"OK",
                         "schema":{
-                            "$ref":"#/definitions/ODataResponse[List[Dashboard]]"
+                            "$ref":"#/definitions/ODataResponse.List.Dashboard"
                         }
                     }
                 },
@@ -1121,7 +1121,7 @@
                     "200":{
                         "description":"OK",
                         "schema":{
-                            "$ref":"#/definitions/ODataResponse[List[Dashboard]]"
+                            "$ref":"#/definitions/ODataResponse.List.Dashboard"
                         }
                     }
                 },
@@ -1187,7 +1187,7 @@
                     "200":{
                         "description":"OK",
                         "schema":{
-                            "$ref":"#/definitions/ODataResponse[List[Tile]]"
+                            "$ref":"#/definitions/ODataResponse.List.Tile"
                         }
                     }
                 },
@@ -1227,7 +1227,7 @@
                     "200":{
                         "description":"OK",
                         "schema":{
-                            "$ref":"#/definitions/ODataResponse[List[Tile]]"
+                            "$ref":"#/definitions/ODataResponse.List.Tile"
                         }
                     }
                 },
@@ -1660,7 +1660,7 @@
                     "200":{
                         "description":"OK",
                         "schema":{
-                            "$ref":"#/definitions/ODataResponse[List[Dataset]]"
+                            "$ref":"#/definitions/ODataResponse.List.Dataset"
                         }
                     }
                 },
@@ -1847,7 +1847,7 @@
                     "200":{
                         "description":"OK",
                         "schema":{
-                            "$ref":"#/definitions/ODataResponse[List[Table]]"
+                            "$ref":"#/definitions/ODataResponse.List.Table"
                         }
                     }
                 },
@@ -2019,7 +2019,7 @@
                     "200":{
                         "description":"OK",
                         "schema":{
-                            "$ref":"#/definitions/ODataResponse[List[Refresh]]"
+                            "$ref":"#/definitions/ODataResponse.List.Refresh"
                         }
                     }
                 },
@@ -2095,7 +2095,7 @@
                     "200":{
                         "description":"OK",
                         "schema":{
-                            "$ref":"#/definitions/ODataResponse[List[GatewayDatasource]]"
+                            "$ref":"#/definitions/ODataResponse.List.GatewayDatasource"
                         }
                     }
                 },
@@ -2134,7 +2134,7 @@
                     "200":{
                         "description":"OK",
                         "schema":{
-                            "$ref":"#/definitions/ODataResponse[List[Datasource]]"
+                            "$ref":"#/definitions/ODataResponse.List.Datasource"
                         }
                     }
                 },
@@ -2314,7 +2314,7 @@
                     "200":{
                         "description":"OK",
                         "schema":{
-                            "$ref":"#/definitions/ODataResponse[List[Import]]"
+                            "$ref":"#/definitions/ODataResponse.List.Import"
                         }
                     }
                 },
@@ -2430,7 +2430,7 @@
                     "200":{
                         "description":"OK",
                         "schema":{
-                            "$ref":"#/definitions/ODataResponse[List[Group]]"
+                            "$ref":"#/definitions/ODataResponse.List.Group"
                         }
                     }
                 }
@@ -2462,7 +2462,7 @@
                     "200":{
                         "description":"OK",
                         "schema":{
-                            "$ref":"#/definitions/ODataResponse[List[Report]]"
+                            "$ref":"#/definitions/ODataResponse.List.Report"
                         }
                     }
                 },
@@ -2892,7 +2892,7 @@
 
             }
         },
-        "ODataResponse[List[Dataset]]":{
+        "ODataResponse.List.Dataset":{
             "type":"object",
             "description":"A dataset odata list wrapper",
             "properties":{
@@ -3032,7 +3032,7 @@
                 }
             }
         },
-        "ODataResponse[List[Table]]":{
+        "ODataResponse.List.Table":{
             "type":"object",
             "description":"Odata response wrapper for a Power BI Table collection",
             "properties":{
@@ -3049,7 +3049,7 @@
                 }
             }
         },
-        "ODataResponse[List[GatewayDatasource]]":{
+        "ODataResponse.List.GatewayDatasource":{
             "type":"object",
             "description":"Odata response wrapper for a Power BI Gateway datasource collection",
             "properties":{
@@ -3114,7 +3114,7 @@
                 }
             }
         },
-        "ODataResponse[List[Datasource]]":{
+        "ODataResponse.List.Datasource":{
             "type":"object",
             "description":"Odata response wrapper for a Power BI datasource collection",
             "properties":{
@@ -3131,7 +3131,7 @@
                 }
             }
         },
-        "ODataResponse[List[Report]]":{
+        "ODataResponse.List.Report":{
             "type":"object",
             "description":"Odata response wrapper for a Power BI Report collection",
             "properties":{
@@ -3148,7 +3148,7 @@
                 }
             }
         },
-        "ODataResponse[List[Dashboard]]":{
+        "ODataResponse.List.Dashboard":{
             "type":"object",
             "description":"Odata response wrapper for a Power BI Dashboard collection",
             "properties":{
@@ -3165,7 +3165,7 @@
                 }
             }
         },
-        "ODataResponse[List[Tile]]":{
+        "ODataResponse.List.Tile":{
             "type":"object",
             "description":"Odata response wrapper for a Power BI Tile collection",
             "properties":{
@@ -3182,7 +3182,7 @@
                 }
             }
         },
-        "ODataResponse[List[Import]]":{
+        "ODataResponse.List.Import":{
             "type":"object",
             "description":"Odata response wrapper for a Power BI Import collection",
             "properties":{
@@ -3199,7 +3199,7 @@
                 }
             }
         },
-        "ODataResponse[List[Group]]":{
+        "ODataResponse.List.Group":{
             "type":"object",
             "description":"Odata response wrapper for a Power BI Group list",
             "properties":{
@@ -3216,7 +3216,7 @@
                 }
             }
         },
-        "ODataResponse[List[Gateway]]": {
+        "ODataResponse.List.Gateway": {
             "type": "object",
             "description": "Odata response wrapper for a Power BI Gateways list",
             "properties": {
@@ -3232,7 +3232,7 @@
                 }
             }
         },
-        "ODataResponse[List[Refresh]]": {
+        "ODataResponse.List.Refresh": {
             "type": "object",
             "description": "Odata response wrapper for a Power BI Refresh history",
             "properties": {
@@ -3248,7 +3248,7 @@
                 }
             }
         },
-        "ODataResponse[List[UserAccessRight]]": {
+        "ODataResponse.List.UserAccessRight": {
             "type": "object",
             "description": "Odata response wrapper for a Power BI user Access Right List",
             "properties": {
